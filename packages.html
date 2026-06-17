@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Packages | Clutch Detailing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <img src="https://static.wixstatic.com/media/78e9cf_9a88a703f727478993127f50c611832d~mv2.png" alt="Clutch Detailing Logo">
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="packages.html" class="active">Packages</a></li>
+        <li><a href="index.html#contact">Contact Us</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+      <a href="index.html#contact" class="btn btn-primary nav-cta">Get a Quote</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero" style="background-image: url('https://static.wixstatic.com/media/78e9cf_a970df158b7e48ae8039d96d9c0eac0f~mv2.jpg');">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Our Premium Detailing Services</h1>
+    </div>
+  </section>
+
+  <!-- FILTER TABS -->
+  <section class="section packages-section">
+    <div class="container">
+      <div class="pkg-tabs">
+        <button class="pkg-tab active" data-filter="all">All Packages</button>
+        <button class="pkg-tab" data-filter="interior-exterior">Interior / Exterior</button>
+        <button class="pkg-tab" data-filter="interior">Interior Only</button>
+        <button class="pkg-tab" data-filter="exterior">Exterior Only</button>
+      </div>
+
+      <div class="packages-grid">
+
+        <!-- Refresh Detail -->
+        <div class="pkg-card featured" data-category="interior-exterior">
+          <div class="pkg-badge">Interior / Exterior</div>
+          <div class="pkg-featured-label">Most Popular</div>
+          <h3>Refresh Detail</h3>
+          <p class="pkg-desc">Our Full Detail thoroughly cleans and refreshes your vehicle inside and out — top to bottom, front to back.</p>
+          <div class="pkg-section">
+            <h4>Exterior</h4>
+            <ul>
+              <li>Detailed Hand Wash &amp; Foam Bath</li>
+              <li>Bug Removal</li>
+              <li>Deep Cleaning of Wheels &amp; Rims</li>
+              <li>Tire Cleaning &amp; Dressing</li>
+            </ul>
+          </div>
+          <div class="pkg-section">
+            <h4>Protection</h4>
+            <ul>
+              <li>1-Month Paint Sealant (Adds Shine &amp; Protection)</li>
+            </ul>
+          </div>
+          <div class="pkg-section">
+            <h4>Interior</h4>
+            <ul>
+              <li>Detailed Vacuum</li>
+              <li>Complete Interior Wipe Down</li>
+              <li>Cleaning of Cracks &amp; Crevices</li>
+              <li>Floor Mats Cleaned</li>
+              <li>Leather Conditioned</li>
+              <li>Windows Cleaned</li>
+              <li>Door Jambs Cleaned</li>
+              <li>Trunk Cleaned</li>
+            </ul>
+          </div>
+          <a href="index.html#contact" class="btn btn-primary">Book Now</a>
+        </div>
+
+        <!-- Cabin Revive -->
+        <div class="pkg-card" data-category="interior">
+          <div class="pkg-badge">Interior Only</div>
+          <h3>Cabin Revive</h3>
+          <p class="pkg-desc">Bring your vehicle's interior back to life. We tackle dirt, spills, pet hair, odors, and months of buildup.</p>
+          <div class="pkg-section">
+            <h4>Interior Deep Clean</h4>
+            <ul>
+              <li>Detailed Vacuum</li>
+              <li>Complete Interior Wipe Down</li>
+              <li>Cleaning of Cracks &amp; Crevices</li>
+              <li>Steam Cleaning</li>
+              <li>Carpet &amp; Upholstery Extraction</li>
+              <li>Stain Treatment &amp; Removal</li>
+              <li>Floor Mats Cleaned</li>
+              <li>Leather Conditioned</li>
+              <li>Windows Cleaned</li>
+              <li>Door Jambs Cleaned</li>
+              <li>Trunk Cleaned</li>
+            </ul>
+          </div>
+          <div class="pkg-section">
+            <h4>Interior Ceramic Protection</h4>
+            <p class="pkg-note">Applied to Dash, Doors, Console &amp; Interior Trim</p>
+            <ul>
+              <li>Helps repel dust, dirt, and everyday grime</li>
+              <li>UV protection to prevent fading and cracking</li>
+              <li>Clean, natural finish — no greasy feel</li>
+              <li>Long-lasting protection for months</li>
+            </ul>
+          </div>
+          <div class="pkg-section">
+            <h4>Leather Protection</h4>
+            <ul>
+              <li>Keeps leather soft and conditioned</li>
+              <li>Reduces drying and premature wear</li>
+              <li>Maintains a clean, factory-like appearance</li>
+            </ul>
+          </div>
+          <a href="index.html#contact" class="btn btn-primary">Book Now</a>
+        </div>
+
+        <!-- Clutch Exterior Detail -->
+        <div class="pkg-card" data-category="exterior">
+          <div class="pkg-badge">Exterior Only</div>
+          <h3>Clutch Exterior Detail</h3>
+          <p class="pkg-desc">Remove embedded contaminants and leave behind a smooth, glossy finish with up to 6 months of protection.</p>
+          <div class="pkg-section">
+            <h4>Exterior Service</h4>
+            <ul>
+              <li>Detailed Hand Wash &amp; Foam Bath</li>
+              <li>Bug Removal</li>
+              <li>Clay Treatment to Remove Embedded Contaminants</li>
+              <li>Deep Cleaning of Wheels &amp; Rims</li>
+            </ul>
+          </div>
+          <div class="pkg-section">
+            <h4>Protection</h4>
+            <ul>
+              <li>6-Month Paint Sealant for Lasting Shine &amp; Protection</li>
+              <li>Premium Tire Dressing for a Rich, Durable Finish</li>
+              <li>Plastic Trim Dressing &amp; UV Protection</li>
+            </ul>
+          </div>
+          <a href="index.html#contact" class="btn btn-primary">Book Now</a>
+        </div>
+
+        <!-- Clutch Reflection Package -->
+        <div class="pkg-card" data-category="exterior">
+          <div class="pkg-badge">Exterior Only</div>
+          <h3>Clutch Reflection Package</h3>
+          <p class="pkg-desc">Everything in our Clutch Exterior Detail, plus a single-stage polish to enhance gloss, improve paint clarity, and reduce light swirl marks.</p>
+          <div class="pkg-section">
+            <h4>Includes Everything in Clutch Exterior, Plus:</h4>
+            <ul>
+              <li>Detailed Hand Wash &amp; Foam Bath</li>
+              <li>Bug Removal</li>
+              <li>Clay Treatment to Remove Embedded Contaminants</li>
+              <li>Deep Cleaning of Wheels &amp; Rims</li>
+              <li>6-Month Paint Sealant</li>
+              <li>Premium Tire Dressing</li>
+              <li>Plastic Trim Dressing &amp; UV Protection</li>
+            </ul>
+          </div>
+          <div class="pkg-section">
+            <h4>Paint Enhancement</h4>
+            <ul>
+              <li>Single-Stage Paint Enhancement &amp; Buff</li>
+            </ul>
+          </div>
+          <a href="index.html#contact" class="btn btn-primary">Book Now</a>
+        </div>
+
+      </div>
+
+      <div class="packages-cta">
+        <p>Not sure which package is right for you?</p>
+        <a href="index.html#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <img src="https://static.wixstatic.com/media/78e9cf_9a88a703f727478993127f50c611832d~mv2.png" alt="Clutch Detailing" class="footer-logo">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About Us</a>
+        <a href="packages.html">Packages</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="portfolio.html">Portfolio</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/clutch.nj/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/people/Clutch-Detailing/pfbid02NUtZUoUnyUtFWY7HFHaL3AyitH7oqpV26kbcjfLX3hEkeTjoqAkULZrtLoBD7NYXl/" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.tiktok.com/@clutch.nj" target="_blank" rel="noopener">TikTok</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Clutch Detailing. All rights reserved. Elizabeth, NJ · 732-596-7017</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
